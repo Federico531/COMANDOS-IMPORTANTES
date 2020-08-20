@@ -1,0 +1,33 @@
+
+CODIGOS IMPORTANTES
+
+git init  Crea git en la carpeta del proyecto
+git add . Agrega todo a stagin area
+git commit -a–m “algun mensaje”  Acepto todos los commit
+git status  Ver el estado de las nuevas modificaciones
+git push origin branchName  actualizoar el repositorio remoto
+git push origin –delete branchName  Borrar un branch
+MERGE
+1-	git checkout master  me ubico sobre el archivo que quiero conservar 
+2-	git merge branchName  traigo el archivo que quiero hacer merge
+
+pwd directorio actual 
+
+COMANDOS INTERMEDIOS IMPORTANTES
+
+git pull --allow-unrelated-histories  Cuando me dice refusing to merge unrelated histories
+git remote  ver branches
+git remote –v  ver enlace del repositorio
+git remote rm origin  borrar remote branch
+git remote add origin urlToRepo   reasignar ruta del remote 
+git fetch --all  Traer todas las ramas locales de un proyecto desde el repositorio 
+git pull –all  actualizar todas las ramas locales de un proyecto desde el repositorio
+git branch –r  list remote branches
+git checkout –b LocalName origin
+git pull origin branch --> copiar del remoto al local
+git merge master-holder --allow-unrelated-histories  una vez en la ruta remota fue asignada puedo combinar el archivo  local con el repositorio 
+git push –f origin branch  sobre escribir una rama 
+git clone -b <branchname> --single-branch <remote-repo-url>  Clonar una sola rama
+
+git push origin HEAD  hacer push solo de la rama en la que estoy 
+
