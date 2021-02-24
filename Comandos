@@ -7,6 +7,7 @@ git commit -a–m “algun mensaje”  Acepto todos los commit
 git status  Ver el estado de las nuevas modificaciones
 git push origin branchName  actualizoar el repositorio remoto
 git push origin –delete branchName  Borrar un branch
+git diff --> Ver cambios realizados
 MERGE
 1-	git checkout master  me ubico sobre el archivo que quiero conservar 
 2-	git merge branchName  traigo el archivo que quiero hacer merge
